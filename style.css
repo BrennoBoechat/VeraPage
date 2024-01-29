@@ -288,12 +288,11 @@ i {
   text-align: center;
   font-size: 38px;
   margin-bottom: 14px;
-  margin-bottom: 40px;
 }
 
 .slider {
   margin: 0 auto;
-  max-width: 800px;
+  width: 800px;
   height: 400px;
   overflow: hidden;
   border-radius: 10px;
@@ -319,6 +318,7 @@ i {
 
 .manual-navigation {
   position: absolute;
+  width: 800px;
   margin-top: -40px;
   display: flex;
   justify-content: center;

@@ -26,7 +26,7 @@ i {
 
 .header-icons {
   display: flex;
-  gap: 15px;
+  gap: 14px;
 }
 
 .header-icons a:hover i {
@@ -122,6 +122,10 @@ i {
   max-width: 940px;
   font-size: 46px;
 }
+.hero p {
+  text-align: center;
+  margin: 14px 0;
+}
 
 .button-contact {
   padding: 14px 28px;
@@ -158,13 +162,15 @@ i {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+}
 .about {
   background-color: #e8c8bb;
   overflow: hidden;
   color: #fff;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
 }
 
 .about-content {
@@ -321,12 +327,12 @@ i {
 }
 
 .wrapper i:first-child {
-  left: -23px;
+  left: -1px;
   display: none;
 }
 
 .wrapper i:last-child {
-  right: -23px;
+  right: -1px;
 }
 
 .wrapper .carousel {

@@ -39,6 +39,11 @@
         max-width: 940px;
         font-size: 46px;
     }
+
+    p{
+        text-align: center;
+        margin: 14px 0;
+    }
 }
 
 .button-contact{
@@ -80,13 +85,16 @@
     }
 }
 
+@media screen and (max-width: 480px){
+    .hero h1{
+        font-size: 24px;
+    }
+}
+
 .about{
     background-color: #e8c8bb;
     overflow: hidden;
     color: #fff;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
 }
 
 .about-content{
@@ -95,6 +103,7 @@
     justify-content: center;
     gap: 14px;
     padding: 34px 14px 64px 14px;
+
     img{
         max-width: 570px;
         border-radius: 10px;
@@ -252,12 +261,12 @@
 }
 
 .wrapper i:first-child{
-    left: -23px;
+    left: -1px;
     display: none;
 }
 
 .wrapper i:last-child{
-    right: -23px;
+    right: -1px;
 }
 
 .wrapper .carousel{

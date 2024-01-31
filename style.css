@@ -361,6 +361,7 @@ i {
           user-select: none;
   margin-left: 14px;
   width: 33.3333333333%;
+  border-radius: 10px;
 }
 
 .carousel img:first-child {
